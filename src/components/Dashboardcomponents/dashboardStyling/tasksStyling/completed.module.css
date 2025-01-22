@@ -1,0 +1,105 @@
+.completedConatiner{
+  width: 100%;
+  height: 100%;
+}
+
+.text{
+  font-size: 25px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.circleIcon{
+  font-size: 20px;
+  color: #8BC34A;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+}
+
+.innerContainer{
+  width: 100%;
+  height: 100%;
+  background-color:#F2F6FF ;
+  padding: 30px;
+}
+
+.card{
+  margin:10px;
+  width: 100%;
+  border: 1px solid #C4D0EB;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+}
+
+.textContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer{
+  font-size: 15px;
+}
+
+.iconContainer{
+  position: relative;
+}
+
+.editingIcon{
+  font-size: 25px;
+  color: #53535383;
+  cursor: pointer;
+}
+
+.edit{
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  border: 1px solid #C4D0EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.btn:hover{
+  background-color:#C4D0EB;
+}
+
+.content{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #53535383;
+}
+
+.taskDate{
+  color: #53535383;
+}
+
+.addtask{
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border: 1px solid #202D48;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #202D48;
+}
+

@@ -1,0 +1,55 @@
+.formContainer{
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #C4D0EB;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+/*styling form card*/
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputField{
+  width: 100%;
+  outline: none;
+  border: 1px solid #C4D0EB;
+  height: 50px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+::placeholder{
+  font-size: 20px;
+}
+
+.textareaField{
+  margin-top: 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #C4D0EB;
+  height: 200px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.addButton{
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  border: none;
+  outline: none;
+  color: #F2F6FF;
+  background-color: #202D48;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
