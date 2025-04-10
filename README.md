@@ -1,4 +1,4 @@
-# TodoList Project
+# TodoDashboard Project
 
 ## Overview
 This is a **TodoList application** built with **ReactJS**. It provides users with a simple and intuitive interface to manage their tasks efficiently. Each user can maintain their own profile with personalized task lists.
